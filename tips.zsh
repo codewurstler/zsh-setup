@@ -8,5 +8,6 @@ tips() {
   print -r -- "  ${c}Ctrl-T${r}     fuzzy pick a file into the command line"
   print -r -- "  ${c}Alt-C${r}      fuzzy cd into a subfolder"
   print -r -- "  ${c}**<Tab>${r}    fuzzy anything: ${d}vim **<Tab>, cd **<Tab>, kill <Tab>${r}"
+  print -r -- "  ${c}gh${r}         GitHub CLI: ${d}gh repo clone/create, gh pr create/list, gh issue list${r}"
   print -r -- "  ${c}conf-zsh${r}   edit ~/.zshrc  ${d}| plugins: ~/.zsh_plugins.txt, then exec zsh${r}"
 }
