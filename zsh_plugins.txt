@@ -1,0 +1,16 @@
+# One plugin per line. Order matters.
+zsh-users/zsh-completions kind:fpath path:src
+
+# Oh My Zsh Plugins
+getantidote/use-omz        # handle OMZ dependencies
+ohmyzsh/ohmyzsh path:lib   # load OMZ's library (runs compinit)
+ohmyzsh/ohmyzsh path:plugins/git
+ohmyzsh/ohmyzsh path:plugins/macos
+ohmyzsh/ohmyzsh path:plugins/npm
+ohmyzsh/ohmyzsh path:plugins/docker
+
+# fzf-tab: after compinit, before widget-wrapping plugins
+Aloxaf/fzf-tab
+zsh-users/zsh-autosuggestions
+
+zdharma-continuum/fast-syntax-highlighting kind:defer
